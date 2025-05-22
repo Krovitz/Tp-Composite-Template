@@ -1,4 +1,4 @@
-package Ejercicio1;
+package ejercicio1;
 
 import ejercicio1.modelo.EmpleadoJerarquico;
 import ejercicio1.modelo.EmpleadoRegular;
