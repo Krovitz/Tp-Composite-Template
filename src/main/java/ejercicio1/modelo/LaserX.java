@@ -7,7 +7,7 @@ public class LaserX {
         this.empleado = empleado;
     }
 
-    public float imprimirCostoSalarial() {
+    public float costoSalarial() {
         return empleado.calcularSalario();
     }
 }

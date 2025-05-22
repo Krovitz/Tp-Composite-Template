@@ -22,12 +22,12 @@ public class EmpleadosTest {
         mandoMedio.agregarEmpleado(liderProyecto);
         liderProyecto.agregarEmpleado(empleadoRegular);
 
-        assertEquals(875f, new LaserX(director).imprimirCostoSalarial());
+        assertEquals(875f, new LaserX(director).costoSalarial());
     }
 
     @Test
     public void calcularSalarialEmpleadoRegularTest() {
         var empleadoRegular = new EmpleadoRegular("Lucia", 25f);
-        assertEquals(25f, new LaserX(empleadoRegular).imprimirCostoSalarial());
+        assertEquals(25f, new LaserX(empleadoRegular).costoSalarial());
     }
 }
