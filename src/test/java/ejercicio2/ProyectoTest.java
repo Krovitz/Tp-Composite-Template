@@ -26,7 +26,7 @@ public class ProyectoTest {
 
     @Test
     public void calcularHistoriaUsuario() {
-        var historiaUsuario = new HistoriaDeUsuario("Generar convenio");
+        var historiaUsuario = new HistoriaDeUsuario("Generar convenioo");
         var tarea1 = new Tarea("Tarea 1", 85f);
         var tarea2 = new Tarea("Tarea 2", 50f);
         var tarea3 = new Tarea("Tarea 3", 35f);
