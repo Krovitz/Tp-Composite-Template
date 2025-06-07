@@ -10,15 +10,13 @@ public class Nacional extends Remera {
 
     @Override
     protected double calcularPrecioBase() {
-        // 1.5% del costo de transporte como recargo - 20% de bonificación
         double recargo = costoTransporte * 0.015;
         double precioConRecargo = precioUnitario + recargo;
-        return precioConRecargo * 0.80; // aplica bonificación
+        return precioConRecargo * 0.80;
     }
 
     @Override
     protected double aplicarGanancia(double precioBase) {
-        // 15% de ganancia
         return precioBase * 1.15;
     }
 }
