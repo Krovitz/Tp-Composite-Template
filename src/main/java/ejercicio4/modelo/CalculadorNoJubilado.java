@@ -4,8 +4,8 @@ package ejercicio4.modelo;
 public class CalculadorNoJubilado extends Calculador {
 
 
-    public CalculadorNoJubilado(int mesEnPromocion) {
-        super(mesEnPromocion);
+    public CalculadorNoJubilado(int mesEnPromocion, ProveedorDeFecha fecha) {
+        super(mesEnPromocion, fecha);
     }
 
 
@@ -19,8 +19,4 @@ public class CalculadorNoJubilado extends Calculador {
         return 0.21;
     }
 
-    @Override
-    public String nombreClase() {
-        return this.getClass().getName();
-    }
 }
