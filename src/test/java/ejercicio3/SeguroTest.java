@@ -47,4 +47,14 @@ public class SeguroTest {
 
         assertEquals(382.5f, gestorSeguros.calcularCostoTotal());
     }
+
+    @Test
+    public void calcularCostoSeguroTest() {
+        var vida = new Seguro("De vida", 100f);
+        var antirobo = new Seguro("Antirobo", 200f);
+
+        vida.agregarSeguro(antirobo);
+
+        assertEquals(100f, vida.costo());
+    }
 }

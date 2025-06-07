@@ -2,17 +2,17 @@ package ejercicio2.modelo;
 
 public class Tarea implements ItemProyecto {
     private String nombre;
-    private float tiempo;
+    private float duracion;
 
 
-    public Tarea(String nombre, float tiempo) {
+    public Tarea(String nombre, float duracion) {
         this.nombre = nombre;
-        this.tiempo = tiempo;
+        this.duracion = duracion;
     }
 
     @Override
-    public float calcularTiempo() {
-        return this.tiempo;
+    public float duracion() {
+        return this.duracion;
     }
 
 }

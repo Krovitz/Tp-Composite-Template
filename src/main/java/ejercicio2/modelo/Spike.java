@@ -2,16 +2,16 @@ package ejercicio2.modelo;
 
 public class Spike implements ItemProyecto {
     private String nombre;
-    private float tiempo;
+    private float duracion;
 
 
-    public Spike(String nombre, float tiempo) {
+    public Spike(String nombre, float duracion) {
         this.nombre = nombre;
-        this.tiempo = tiempo;
+        this.duracion = duracion;
     }
 
     @Override
-    public float calcularTiempo() {
-        return this.tiempo;
+    public float duracion() {
+        return this.duracion;
     }
 }

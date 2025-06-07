@@ -17,6 +17,6 @@ public class Main {
         mandoMedio.agregarEmpleado(liderProyecto);
         liderProyecto.agregarEmpleado(empleadoRegular);
 
-        new LaserX(director).costoSalarial();
+        System.out.println(new LaserX(director).costoSalarial());
     }
 }

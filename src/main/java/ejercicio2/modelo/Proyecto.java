@@ -15,10 +15,10 @@ public class Proyecto {
         items.add(item);
     }
 
-    public float calcularTiempoProyecto() {
+    public float calcularDuracion() {
         float tiempoTotal = 0;
         for (ItemProyecto i : items) {
-            tiempoTotal += i.calcularTiempo();
+            tiempoTotal += i.duracion();
         }
         return tiempoTotal;
     }
